@@ -232,7 +232,8 @@ class System{
             //this.innerElements.push(new InnerPlanet());
             //this.primaryElements.push(new PrimaryPlanet());
             //Planets in Primary +1 to atmo, +2 to atmocomp, no idea how to implement
-            //All planets add +2 to Hab, no idea how to implement
+            //All planets add +2 to Hab, no idea how to implement --CORRECTION
+            //We know how to do it now, it's just gonna involve making a new set of sub classes
             console.log('Possible life-supporting planets detected in this system');
             return "Haven";
         }

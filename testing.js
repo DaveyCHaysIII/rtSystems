@@ -34,3 +34,4 @@ console.log(whatever.thing.name);
 //testing result:
 //cannot access "whatever" before initialization
 //we can't access the properties of the parent object from the child object
+//this means we have to have to HAVE to use a new set of subclasses or find a work-around
